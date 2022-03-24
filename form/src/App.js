@@ -12,7 +12,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:3000/login')
+    fetch('https://vinna8.github.io/test/')
       .then(response => response.json())
       .then(json => {
         setLoading(false);
