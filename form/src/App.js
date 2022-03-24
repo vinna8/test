@@ -12,7 +12,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://vinna8.github.io/test/')
+    fetch('')
       .then(response => response.json())
       .then(json => {
         setLoading(false);
